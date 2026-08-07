@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kabir Nanda — Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER / NAV -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">&lt;/&gt;</span>
+      VR<span class="accent">.dev</span>
+    </a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">&lt;intro&gt;</p>
+      <h1>Varun<br>Rana</h1>
+      <p class="hero-tagline">
+        Computer Science undergraduate building full-stack and real-time
+        web applications with the MERN stack, WebRTC, and Socket.io.
+        Focused on shipping practical projects, not just tutorials.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+        <a href="#projects" class="btn btn-ghost">See My Work</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <svg viewBox="0 0 200 240" class="avatar-svg" aria-label="Developer illustration">
+          <rect width="200" height="240" fill="#20313b"/>
+          <circle cx="100" cy="90" r="42" fill="#e7cbab"/>
+          <path d="M60 95 Q60 45 100 45 Q140 45 140 95 Q140 130 100 140 Q60 130 60 95 Z" fill="#3a2a1e"/>
+          <rect x="45" y="150" width="110" height="90" rx="18" fill="#233b47"/>
+        </svg>
+      </div>
+      <div class="code-chip">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <code>status: available</code>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <div class="about-visual">
+      <svg viewBox="0 0 200 260" class="avatar-svg avatar-square" aria-label="Developer photo placeholder">
+        <rect width="200" height="260" fill="#eef0ec"/>
+        <circle cx="100" cy="95" r="45" fill="#d9b48f"/>
+        <path d="M58 100 Q58 48 100 48 Q142 48 142 100 Q142 138 100 148 Q58 138 58 100 Z" fill="#2b1d14"/>
+        <rect x="40" y="160" width="120" height="100" rx="20" fill="#16232b"/>
+      </svg>
+    </div>
+    <div class="about-text">
+      <p class="eyebrow">&lt;about-me&gt;</p>
+      <h2>What I do</h2>
+      <p class="lede">
+        I'm a B.Tech Computer Science student who builds full-stack web apps
+        and real-time systems — from rental marketplaces to peer-to-peer
+        video calling — and takes them from idea through to deployment.
+      </p>
+      <p>
+        My work spans the MERN stack (MongoDB, Express, React, Node.js),
+        real-time communication with WebRTC and Socket.io, and some applied
+        deep learning with PyTorch. I care about writing code that's secure,
+        tested, and actually ready for production — not just working on
+        localhost.
+      </p>
+      <ul class="about-facts">
+        <li><strong>B.Tech CSE</strong> — Class of 2027</li>
+        <li><strong>150+</strong> DSA problems solved</li>
+        <li><strong>3+ deployed</strong> full-stack / real-time projects</li>
+      </ul>
+      <a href="#resume" class="btn btn-primary">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="container">
+    <p class="eyebrow center">&lt;skills/&gt;</p>
+    <h2 class="center">Where I add value</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <p>React.js, HTML5, CSS3, Tailwind CSS, Bootstrap , EJS</p>
+      </div>
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <p>Node.js, Express.js, Appwrite, REST APIs, Socket.io, WebRTC .</p>
+      </div>
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <p>MongoDB, Mongoose, MySQL, PostgreSQL</p>
+      </div>
+      <div class="skill-card">
+        <h3>ML / Tools</h3>
+        <p>PyTorch, CycleGAN, Git, GitHub, Cloudinary, Render, VS Code.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="container">
+    <p class="eyebrow center">&lt;projects&gt;</p>
+    <h2 class="center">Recent work</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-thumb thumb-1"></div>
+        <h3>BookMyStay</h3>
+        <p>Full-stack rental listing platform — browse, create, and edit listings with location-based search across 50+ stays. Role-based access with Passport.js, image uploads via Cloudinary, deployed on Render with MongoDB Atlas.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb thumb-2"></div>
+        <h3>Voxa</h3>
+        <p>Real-time video conferencing app with peer-to-peer WebRTC connections, live chat over Socket.io, and a signaling server handling ICE negotiation. Sub-200ms connection setup in local testing.</p>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb thumb-3"></div>
+        <h3>EchoMRI</h3>
+        <p>CycleGAN model translating ultrasound scans into MRI-like cardiac images, using a dual generator-discriminator setup with cycle-consistency loss — no paired training data required.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume" id="resume">
+  <div class="container resume-inner">
+    <div>
+      <p class="eyebrow">&lt;resume&gt;</p>
+      <h2>Want the full picture?</h2>
+      <p>Download my resume as a PDF for full details on experience, education, and skills.</p>
+    </div>
+    <a href="Res.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <p class="eyebrow">&lt;contact&gt;</p>
+      <h2>Let's work together</h2>
+      <p>Have a project in mind? Reach out through any of the channels below.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> varunrana1789@gmail.com</li>
+        <li><strong>Phone:</strong> +91 98765 XXXXX</li>
+        <li><strong>Location:</strong> India</li>
+      </ul>
+    </div>
+    
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2026 Varun Rana. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
