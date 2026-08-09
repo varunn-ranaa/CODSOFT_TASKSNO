@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <div class="display">
+    <div class="display-previous" id="displayPrevious"></div>
+    <div class="display-current" id="displayCurrent">0</div>
+  </div>
+
+  <div class="keys">
+    <button class="key key-fn" data-action="clear">C</button>
+    <button class="key key-fn" data-action="backspace">⌫</button>
+    <button class="key key-fn" data-action="percent">%</button>
+    <button class="key key-op" data-action="operator" data-operator="÷">÷</button>
+
+    <button class="key key-num" data-action="number">7</button>
+    <button class="key key-num" data-action="number">8</button>
+    <button class="key key-num" data-action="number">9</button>
+    <button class="key key-op" data-action="operator" data-operator="×">×</button>
+
+    <button class="key key-num" data-action="number">4</button>
+    <button class="key key-num" data-action="number">5</button>
+    <button class="key key-num" data-action="number">6</button>
+    <button class="key key-op" data-action="operator" data-operator="−">−</button>
+
+    <button class="key key-num" data-action="number">1</button>
+    <button class="key key-num" data-action="number">2</button>
+    <button class="key key-num" data-action="number">3</button>
+    <button class="key key-op" data-action="operator" data-operator="+">+</button>
+
+    <button class="key key-num key-zero" data-action="number">0</button>
+    <button class="key key-num" data-action="decimal">.</button>
+    <button class="key key-equals" data-action="equals">=</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
